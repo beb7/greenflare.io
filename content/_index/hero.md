@@ -19,6 +19,6 @@ subtitle = "The Open Source SEO Crawler"
 
 [[buttons]]
   text = "Download"
-  url = "/download"
+  url = "/download/"
   color = "primary"
 +++
