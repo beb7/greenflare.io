@@ -1,7 +1,7 @@
 +++
 fragment = "item"
 #disabled = false
-date = "2020-10-04"
+date = "2020-12-07"
 weight = 3
 background = "secondary"
 align = "left"
@@ -15,7 +15,7 @@ subtitle= "Application bundle (Disk Image)."
 
 [[buttons]]
   text = "Download"
-  url = "/download/greenflare-0.95-x86_64-1.dmg"
+  url = "/download/greenflare-0.96-x86_64-1.dmg"
   color = "dark"
 +++
 

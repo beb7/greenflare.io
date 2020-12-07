@@ -1,7 +1,7 @@
 +++
 fragment = "item"
 #disabled = false
-date = "2020-10-04"
+date = "2020-12-07"
 weight = 2
 background = "light"
 align = "left"
@@ -15,7 +15,7 @@ subtitle= "Installer and Setup"
 
 [[buttons]]
   text = "Download"
-  url = "/download/GreenflareSEOCrawler-0.95.exe"
+  url = "/download/GreenflareSEOCrawler-0.96.exe"
   color = "dark"
 +++
 
