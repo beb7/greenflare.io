@@ -26,6 +26,7 @@ lastmod = ["lastmod", ":git", "date"]
 [params]
   name = "Greenflare"
   description = "Open Source SEO Crawler and Analysis Tool for Windows, macOS and Linux."
+  images = ["images/obi-crawl.png"]
 
   [params.style]
     #background = "secondary"
