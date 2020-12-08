@@ -46,7 +46,7 @@
   <title>
     {{- $title | safeHTML -}}
   </title>
-
+  {{ if .Site.Params.gtm_id}}<noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ .Site.Params.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
   {{ "<!-- Theme Styles -->" | safeHTML }}
   {{ partial "extra/grid-css.html" -}}
   {{- $sassTemplate := resources.Get "styles/index.scss" -}}
@@ -91,7 +91,6 @@
       <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     {{ end }}
   {{- end }}
-  {{ template "_internal/google_analytics.html" . }}
   <script>
     window.syna = {
       {{ if .Site.Params.unsafeEvents }}{{ print "enabledUnsafeEvents: true," | safeJS }}{{ end }}
