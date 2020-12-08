@@ -8,7 +8,6 @@ version = "0.17.3"
 
 # Google Analytics tracking
 googleAnalytics = ""
-gtm_id = "GTM-W6N32N8"
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
@@ -28,6 +27,7 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Greenflare"
   description = "Open Source SEO Crawler and Analysis Tool for Windows, macOS and Linux."
   images = ["images/greenflare-v.0.96.jpg"]
+  gtm_id = "GTM-W6N32N8"
 
   [params.style]
     #background = "secondary"
