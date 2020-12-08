@@ -46,7 +46,7 @@
   <title>
     {{- $title | safeHTML -}}
   </title>
-  {{ if .Site.Params.gtm_id}}<noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ .Site.Params.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
+  {{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
   {{ "<!-- Theme Styles -->" | safeHTML }}
   {{ partial "extra/grid-css.html" -}}
   {{- $sassTemplate := resources.Get "styles/index.scss" -}}
