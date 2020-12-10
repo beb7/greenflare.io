@@ -75,9 +75,14 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 10
 
 [[menu.main]]
+  url = "/about/"
+  name = "About"
+  weight = 20  
+
+[[menu.main]]
   url = "/download/"
   name = "Download"
-  weight = 20
+  weight = 30
 
 #[[menu.main]]
 #  url = "/faq"
@@ -114,9 +119,3 @@ lastmod = ["lastmod", ":git", "date"]
   name = "twitter"
   pre = "fab fa-twitter"
   url = "https://twitter.com/GreenflareEN"
-
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
-  url = "https://www.linkedin.com/in/benjamin-g%C3%B6rler-0393b4199/"
