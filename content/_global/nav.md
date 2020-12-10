@@ -10,6 +10,11 @@ background = "dark"
   text = "Star" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
 
+[twitter_button]
+  url = "https://twitter.com/GreenflareEN"
+  text = "" #
+  icon = "fab fa-twitter"  
+
 # Branding options
 [asset]
   image = "greenflare-logo.svg"
