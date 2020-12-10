@@ -134,6 +134,14 @@
       </a>
     </div>
   {{- end }}
+  {{- with .Params.twitter_button }}
+    <div class="d-none d-lg-block pl-auto">
+      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- i18n "navbar.github" | default "Twitter" -}}">
+        <i class="{{ printf "%s" .icon | default (printf "fab fa-twitter") }} mr-2"></i>
+        {{ .text | default (i18n "github.star") }}
+      </a>
+    </div>
+  {{- end }}  
 </nav>
 {{/*
   * Get the config of breadcrumbs and set defaults
