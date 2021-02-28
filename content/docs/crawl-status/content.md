@@ -16,7 +16,7 @@ content = """
  [OK](#ok)  
  [Canonicalised](#canonicalised)  
  [Header Canonicalised](#header-canonicalised)  
- [robots.txt](#blocked-by-robotstxt)
+ [Robots TXT](#blocked-by-robotstxt)
  [X-Robots-Tag](#blocked-by-x-robots-tag)
  [Meta-Robots-Tag](#blocked-by-meta-robots-tag)
 """
