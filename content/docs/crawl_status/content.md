@@ -7,6 +7,19 @@ weight = 1
 
 title = "Crawl Status - Documentation"
 subtitle = "How to interpret the crawl status column"
+
+[sidebar]
+title = "Sidebar"
+align = "left"
+sticky = true # Default is false
+content = """
+[OK](#OK)  
+[Canonicalised](#Canonicalised)  
+[Header Canonicaliased](#)  
+[Blocked By robots.txt](#)
+[Blocked By X-Robots-Tag](#)
+[Blocked By Meta Robots Taf](#)
+"""
 +++
 
  
@@ -35,4 +48,5 @@ Blocked by Meta Robots Tag within the crawl status column indicates that the URI
 ## (Blocked by) Meta Robots Tag
 
 Blocked by Meta Robots Tag within the crawl status column indicates that the URI requested has HTMl directives found within the head of the document which indicate a value of noindex directive. This will indicate to search engine crawlers that the page should not be stored within their indexes. 
+
 ---
