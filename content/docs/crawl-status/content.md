@@ -17,8 +17,8 @@ content = """
 [Canonicalised](#canonicalised)  
 [Header Canonicaliased](#header-canonicalised)  
 [robots.txt](#robotstxt)
-[X-Robots-Tag](#x-robots-tag)
-[Meta Robots Tag](#meta-robots-tag)
+[X-Robots-Tag](#blocked-by-x-robots-tag)
+[Meta Robots Tag](#blocked-by-meta-robots-tag)
 """
 +++
 
