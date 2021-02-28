@@ -13,12 +13,12 @@ title = "Sidebar"
 align = "left"
 sticky = true # Default is false
 content = """
-[OK](#ok)  
-[Canonicalised](#canonicalised)  
-[Header-Canonicaliased](#header-canonicalised)  
-[robots.txt](#blocked-by-robotstxt)
-[X-Robots-Tag](#blocked-by-x-robots-tag)
-[Meta-Robots-Tag](#blocked-by-meta-robots-tag)
+ [OK](#ok)  
+ [Canonicalised](#canonicalised)  
+ [Header Canonicalised](#header-canonicalised)  
+ [robots.txt](#blocked-by-robotstxt)
+ [X-Robots-Tag](#blocked-by-x-robots-tag)
+ [Meta-Robots-Tag](#blocked-by-meta-robots-tag)
 """
 +++
 
